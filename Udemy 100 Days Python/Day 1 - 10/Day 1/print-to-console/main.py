@@ -4,10 +4,10 @@ print("Hello" + " " + "World!")
 
 print("What is your name?")
 input("What is your name?")
-print("Hello " + input("What is your name?"))
+print("Hello " + input("What is your name?")) #input() allows for user input: str, num, bool
 
 iLength = input()
-print(len(iLength))
+print(len(iLength)) #len() returns the number of items in an object: if obj is str len() returns number of char
 
 name = input("What is your name?")
 print(name)

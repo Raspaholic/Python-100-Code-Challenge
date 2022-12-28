@@ -1,50 +1,50 @@
 #Data Types:
 
 #String
-    #print("Hello, world!")
+    print("Hello, world!")
 #selecting certain letter of string using brackets and printing results
-    #print("Hello"[1])#counts up from 0 not starting at 1
+    print("Hello"[1])#counts up from 0 not starting at 1
 #Subscripting: pulling certain element from string
-    #print("Hello"[4])
+    print("Hello"[4])
 
 #Integer (negative or positive whole numbers are all integers)
-    #print(123 + 456)
+    print(123 + 456)
 #Writing large numbers can be separated with '_' instead of comma i.e: 789_541_120
-    #print(123_456_789)
+    print(123_456_789)
 
 #Float (negative or positive numbers with decimal values)
-    #pi = 3.14159
-    #print(pi)
+    pi = 3.14159
+    print(pi)
 
 #Boolean (only two values: True or False has to be capitalized)
-    #poop = True
-    #print(poop)
-    #pee = False
-    #print(pee)
+    poop = True
+    print(poop)
+    pee = False
+    print(pee)
 
 
-    #num_char = len(input("What is your name?"))
-    #new_num_char = str(num_char) #converts num_char to string
-    #print("Your name has " + new_num_char + " characters.") #The result has all the same data type now (strings)
+    num_char = len(input("What is your name?"))
+    new_num_char = str(num_char) #converts num_char to string
+    print("Your name has " + new_num_char + " characters.") #The result has all the same data type now (strings)
 #type() function checks the data type that's inside the parenthensis and puts the type in the console
 
 #can change a data type to other data types
-    #a = 123
-    #b = str(123)
-    #c = float(123)
-    #d = bool(123)
-    #print(type(a))
-    #print(type(b))
-    #print(type(c))
-    #print(type(d))
+    a = 123
+    b = str(123)
+    c = float(123)
+    d = bool(123)
+    print(type(a))
+    print(type(b))
+    print(type(c))
+    print(type(d))
 
-    #print(70 + float("100.5")) #converts string to float and adds integer
+    print(70 + float("100.5")) #converts string to float and adds integer
 
-    #two_digit_number = input("Type a two digit number: ")
-    #digit_one = two_digit_number[0]
-    #digit_two = two_digit_number[1]
-    #result = int(digit_one) + int(digit_two)
-    #print(result)
+    two_digit_number = input("Type a two digit number: ")
+    digit_one = two_digit_number[0]
+    digit_two = two_digit_number[1]
+    result = int(digit_one) + int(digit_two)
+    print(result)
 
 #Mathmatical Operations in Python (follows PEMDAS + LR)
 #Parenthensis, Exponents, Multiplication, Division, Addition, Subtraction, Left, Right
