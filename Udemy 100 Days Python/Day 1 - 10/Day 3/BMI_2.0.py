@@ -1,7 +1,7 @@
 #BMI Calculator 2.0
-height_ft_str = input("How many feet tall are you?")
-height_in_str = input("How many inches added with feet tall are you?")
-weight_lbs_str = input("How much do you weight in pounds?")
+height_ft_str = input("How many feet tall are you? ")
+height_in_str = input("How many inches added with feet tall are you? ")
+weight_lbs_str = input("How much do you weight in pounds? ")
 height_ft = int(height_ft_str)
 height_in = float(height_in_str)
 height_ft_cm_m = (height_ft * 30.48) / 100
